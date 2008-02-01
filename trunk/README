@@ -46,14 +46,6 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
   * First download and decompresses the file extension of this
   * Rename the directory the this extension to "wiki-httpbl"
-  * Inside the directory "wiki-httpbl" there is a file named 
-    "config.httpbl.php", which is necessary to change the following:
-
-     * Enter your "key" from Project Honey Pot
-     * Enter a QuickLink or trap, to redirect the spammer's
-     * Enter a word random, to anything, is only to show the Links to spammer's
-       traps
-
   * Upload the "wiki-httpbl" to the directory of extensions you wiki, which is 
     called "extensions"
   * Open the file named "LocalSettings.php" which is located in the
