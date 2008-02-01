@@ -60,8 +60,14 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
     directorio raíz de tú sitio web, despúes agrega las siguientes dos lineas al
     final del archivo:
 
-    # Include Http:bl
-    include ( './extensions/wiki-httpbl/httpbl.php' );
+	##### Include Http:bl
+	# Key of access to Http:BL (Project Honey Pot)
+	$wgWikiHttpBLKey = '------------';
+	# QuickLink (Project Honey Pot)
+	$wgWikiHttpBLTrap = '';
+	# Word to work whith Quicklink (url trap)
+	$wgWikiHttpBLTrapWord = 'mediawiki';
+	include( './extensions/wiki-httpbl/httpbl.php' );
 
   * Salva el archivo y entra a tú sitio web para ver si no se muestra algún 
     error
